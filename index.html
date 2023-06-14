@@ -24,18 +24,39 @@
     </div>
 
     <div class="part3">
-        <form id="my Form">
-            <label for = "username">Username:</label>
-            <input type="username" id="username" required>
+        <h1 class="form-h1">Please login - correct password 12345678</h1>
+        <form id="my-form">
+            <div class="form-field">
+                <label for = "username">Username:</label>
+                <input type="username" id="username">
+            </div>
             <br> 
-            <label for = "password">Password:</label>
-            <input type="password" id="password" required>
+            <div class="form-field">
+                <label for = "password">Password:</label>
+                <input type="password" id="password">
+            </div>    
             <br>
-            <label for = "email">Email:</label>
-            <input type="email" id="email" required>
+            <div class="form-field">
+                <label for = "email">Email:</label>
+                <input type="email" id="email">
+            </div>
             <br> 
-            <button type = "submit" >SUBMIT</button>
+            <button class="btn-form" >SUBMIT</button>
         </form>
+    </div>
+
+    <div class="volume-div">
+        <h2 class="bonus-heading">Sphere Volume</h2>
+       <label for="input-radius">Enter the radius of the sphere:</label>
+       <input type="number" id="input-radius">
+       <button id="resultbtn">Get Volume</button>
+       <div id="result-display"></div>
+    </div>
+
+    <div class="footer">
+        <h2>Andrea Tranchina</h2>
+        <h2>Aminta Cisse</h2>
+        <h2>Alejandro Hernandez</h2>
     </div>
 
     <script src="script.js"></script>

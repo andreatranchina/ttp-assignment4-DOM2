@@ -13,7 +13,8 @@
 
 .part1{
     text-align:center;
-    margin: 3rem 0;
+    margin: 3rem 0 6;
+    border-bottom: solid;
 }
 
 .btn1{
@@ -25,6 +26,17 @@
     color:white;
     font-size: 1.5rem;
     font-weight: 700;
+    transition: 500ms ease;
+    border-color: black;
+    border-width: 3px;
+}
+
+.btn1:hover{
+    width: 18rem;
+    background-color: white;
+    color: black;
+    transition: 500ms ease;
+    cursor: pointer;
 }
 
 .btn2{
@@ -36,8 +48,18 @@
     color: black;
     font-size: 1.5rem;
     font-weight: 700;
+    transition: 500ms ease;
+    border-color: black;
+    border-width: 3px;
 }
 
+.btn2:hover{
+    width: 18rem;
+    background-color: black;
+    color: white;
+    transition: 500ms ease;
+    cursor: pointer;
+}
 
 .hover-element{
     width: 600px;
@@ -52,4 +74,93 @@
   .hover-element-text{
     position: relative;
     top: 120px;
+  }
+
+
+.part3{
+    margin-top: 1rem;
+    text-align: center;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+
+.btn-form{
+    padding: 1.5rem;
+    width: 15rem;
+    border-radius: 1.2rem;
+    margin: 1rem;
+    background-color:black;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 500ms ease;
+    border-color: black;
+    border-width: 3px;
+}
+
+.btn-form:hover{
+    width: 18rem;
+    background-color: white;
+    color: black;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+label{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+input{
+    font-size: 1.5rem;
+}
+
+.form-h1{
+    margin: 1rem;
+}
+
+
+/*****bonus part***********/
+
+.bonus-heading{
+    font-size: 2rem;
+    margin-bottom:2rem;
+}
+.volume-div{
+    margin: 2rem;
+    text-align: center;
+  }
+  .volume-div label{
+    font-size: 20px;
+    display: block;
+  }
+  #result-display{
+    color: lighthgreen;
+    font-size: 24px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 200px;
+    margin: 20px auto 0;
+  }
+
+  #resultbtn{
+    width: 10%;
+    height: 2.5rem;
+    position: relative;
+    left: 1rem;
+    margin-top: 1rem;
+    border-radius: 1.2rem;
+    background-color: black;
+    color:white;
+  }
+
+  .footer{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
   }
